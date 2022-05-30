@@ -1,22 +1,34 @@
-import { Container } from "@mui/material";
 import React from "react";
+
+import Typography from "@mui/material/Typography";
+
+
+import AddIcon from '@mui/icons-material/Add';
+import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import InstagramIcon from "@mui/icons-material/Instagram"
 
 const Header = () => {
   return (
-    <Container sx={12} md={12} lg={12}>
-      <div className="app_bar">
-        <div className="container_main">
-
-     
-          <div className="container">
-              <div id="hour"></div>
-              <div id="minute"></div>
-              <div id="second"></div>
-
-          </div>
+    <>
+      <div className="appbar">
+        <div className="title">
+          <h1>Sudeep</h1>
+        </div>
+        <div className="menu">
+          <ul>
+            <li>
+              <AddIcon />
+            </li>
+            <li>
+              <LinkedInIcon />
+            </li>
+            <li>
+              <InstagramIcon />
+            </li>
+          </ul>
         </div>
       </div>
-    </Container>
+    </>
   );
 };
 

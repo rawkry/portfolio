@@ -1,56 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-color: rgb(20, 57, 107);
 }
 
-.app_bar{
+.title{
+    margin-left: 1rem;
+}
+.title h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: rgb(182, 166, 145);
+    
+}
+.appbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-    
+    justify-content: space-between;
     
 }
-.container_main{
-    display: flex;
-    justify-content: center;
-   align-items: center;
-    height: 35rem;
-    width: 35rem;
-    border-radius: 50%;
-    background-color: aqua;
-}
-
-
-.container{
+.menu{
     position: relative;
-    border-radius: 50%;
-    width: 70%;
-    height: auto;
-    padding-top: 70%;
-    background: rgb(54, 25, 25);
 }
-h1 span {
-font-size: 26px ;
-transform-origin: bottom;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-height: 300px;
-width: 50px;
-left: 50;
-top: 50;
-position: absolute;
+
+.menu ul{
+    border-radius: 10px;
+    background-color: rgb(32, 32, 122);
 }
-.c1 {
-    transform: rotate(6deg);
-    color: violet;
-    }
-    .c2 {
-    transform: rotate(12deg);
-    color: indigo;
-    }
-    .c3 {
-    transform: rotate(18deg);
-    color: blue;
-    }
+
+
+.menu ul li{
+   
+    list-style: none;
+    margin:3rem
+}
+header{
+    height: 100vh;
+}

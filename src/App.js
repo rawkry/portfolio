@@ -1,12 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Header from './components/Header';
+import AboutScreen from './screens/AboutScreen';
+import HomeScreen from './screens/HomeScreen';
+import Skills from './screens/Skills';
+
 
 function App() {
+  
   return (
-    <div className="App">
+    <>
+    <header>
       <Header/>
-    </div>
+      <HomeScreen/>
+    </header>
+
+
+      
+
+      <main>
+       
+        
+        
+        <AboutScreen/>
+        <Skills/>
+
+      </main>
+     
+    </>
+    
+   
   );
 }
 
